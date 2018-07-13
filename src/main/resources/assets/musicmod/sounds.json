@@ -1,0 +1,10 @@
+{
+  "hardbass": {
+    "sounds": [
+      {
+        "name": "musicmod:hardbass",
+        "stream": true
+      }
+    ]
+  }
+}

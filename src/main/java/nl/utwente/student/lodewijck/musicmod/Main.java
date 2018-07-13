@@ -7,6 +7,7 @@ import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import nl.utwente.student.lodewijck.musicmod.init.Music;
 import nl.utwente.student.lodewijck.musicmod.proxy.CommonProxy;
 import nl.utwente.student.lodewijck.musicmod.util.Reference;
 
@@ -24,7 +25,7 @@ public class Main {
 
     @EventHandler
     public static void PreInit(FMLPreInitializationEvent event) {
-
+        Music.registerSounds();
     }
 
     @EventHandler
